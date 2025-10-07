@@ -1,0 +1,43 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LucaVmu</title>
+    <link href="./assets/LucaVmu.png" rel="icon">
+    <!-- Load external CSS styles -->
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <div id="LucaVmu">
+      <img src="./assets/LucaVmu.png" class="LucaVmuImg" alt="Bild von mir (LucaVmu)" onclick="cat()">
+      <br>
+      <code>{
+  "name":"LucaVmu",
+  "hobbies":{
+    "Coding":["Html","Css","Js","Bash","Sh"]
+  },
+  "projects":[
+    "CodeStudioX"
+  ]
+      }</code>
+    </div>
+  <br>
+  <a href="./tools">
+    <h2>Tools</h2>
+  </a>
+  <script>
+    var i = 0;
+    function cat() {
+      i++;
+      if (i>4) {
+        document.getElementById("LucaVmu").innerHTML = "<iframe src=\"https://www.youtube.com/embed/h2b2KqOaU5E?loop=1&rel=0&fs=0&controls=0&disablekb=1&playlist=h2b2KqOaU5E\" width=\"531\" height=\"530\" title=\"Cat meows to explosion\" frameborder=\"0\"></iframe>";
+      };
+    };
+  </script>
+</body>
+</html>
